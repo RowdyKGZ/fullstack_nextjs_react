@@ -1,0 +1,46 @@
+.container {
+  flex: 2;
+}
+
+.title {
+  font-size: 28px;
+}
+
+.subtitle {
+  color: gray;
+  font-size: 16px;
+  margin-top: 60px;
+  font-weight: 400;
+}
+
+.category {
+  padding: 3px 8px;
+  border-radius: 10px;
+  font-size: 12px;
+  color: white;
+  width: max-content;
+}
+
+.travel {
+  background-color: #ff8857;
+}
+
+.culture {
+  background-color: #ffb14f;
+}
+
+.food {
+  background-color: #7fb881;
+}
+
+.fashion {
+  background-color: #ff7887;
+}
+
+.coding {
+  background-color: #775aec;
+}
+
+.style {
+  background-color: #789cff;
+}
