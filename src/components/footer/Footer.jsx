@@ -17,10 +17,10 @@ const Footer = () => {
         </p>
 
         <div className={styles.icons}>
-          <Image src="/facebook.png" alt="facebook" width={18} height={18} />
-          <Image src="/youtube.png" alt="youtube" width={18} height={18} />
-          <Image src="/tiktok.png" alt="tiktok" width={18} height={18} />
-          <Image src="/instagram.png" alt="instagram" width={18} height={18} />
+          <Image src="/facebook.png" alt="facebook" width={25} height={25} />
+          <Image src="/youtube.png" alt="youtube" width={25} height={25} />
+          <Image src="/tiktok.png" alt="tiktok" width={25} height={25} />
+          <Image src="/instagram.png" alt="instagram" width={25} height={25} />
         </div>
       </div>
       <div className={styles.links}>

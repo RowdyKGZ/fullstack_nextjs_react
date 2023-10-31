@@ -26,6 +26,7 @@ a {
   color: #ddd;
   --softBg: #1f273a;
   --softTextColor: #a6a6a6;
+  min-height: 100vh;
 }
 
 .light {
@@ -33,6 +34,7 @@ a {
   --textColor: black;
   --softBg: #f0f0f0;
   --softTextColor: #626262;
+  min-height: 100vh;
 }
 
 .container {
@@ -64,6 +66,8 @@ a {
 @media screen and (max-width: 1024px) {
   .wrapper {
     max-width: 768px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 @media screen and (max-width: 768px) {
