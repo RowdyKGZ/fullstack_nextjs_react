@@ -1,16 +1,6 @@
+import { authOptions } from "@/utils/auth";
 import NextAuth from "next-auth/next";
-import GithubProdvier from "next-auth/providers/github";
-import GoogleProdvier from "next-auth/providers/google";
 
-export default NextAuth({
-  providers: [
-    GithubProdvier({
-      clientId: "",
-      clientSecret: "",
-    }),
-    GoogleProdvier({
-      clientId: "",
-      clientSecret: "",
-    }),
-  ],
-});
+const handler = NextAuth(authOptions);
+
+export { handler as GET, handler as POST };

@@ -19,6 +19,7 @@
 .title {
   font-size: 64px;
   margin-bottom: 50px;
+  color: var(--textColor);
 }
 
 .user {
@@ -78,6 +79,10 @@
   font-size: 20px;
   font-weight: 300;
   margin-bottom: 20px;
+}
+
+.description {
+  color: var(--textColor);
 }
 
 @media screen and (max-width: 1536px) {
